@@ -1,0 +1,8 @@
+v2.0 raw
+2c0000 # NOP  
+280203 # MOVI R1, 0x3 
+280403 # MOVI R2, 0x3 
+0ca600 # ADD R3, R1, R2 
+2c0000 # NOP  
+158800 # SLL R4, R3 
+3c0000 # HALT  
